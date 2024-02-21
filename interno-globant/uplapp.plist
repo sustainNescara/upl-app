@@ -1,88 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-	<key>UPL.ipa</key>
-	<array>
-		<dict>
-			<key>architectures</key>
-			<array>
-				<string>arm64</string>
-			</array>
-			<key>buildNumber</key>
-			<string>1</string>
-			<key>certificate</key>
+	<dict>
+		<key>items</key>
+		<array>
 			<dict>
-				<key>SHA1</key>
-				<string>A34BA60C9F9B62DE9CBD18855938766EE3C60CB9</string>
-				<key>dateExpires</key>
-				<string>25/04/25</string>
-				<key>type</key>
-				<string>iOS Distribution</string>
-			</dict>
-			<key>embeddedBinaries</key>
-			<array>
+				<key>assets</key>
+				<array>
+					<dict>
+						<key>kind</key>
+						<string>software-package</string>
+						<key>url</key>
+						<string>https://sustainnescara.github.io/upl-app/interno-globant/UPL-interno-globant.ipa</string>
+					</dict>
+					<dict>
+						<key>kind</key>
+						<string>full-size-image</string>
+						<key>needs-shine</key>
+						<true/>
+						<key>url</key>
+						<string>https://sustainnescara.github.io/upl-app/interno-globant/logo.png</string>
+					</dict>
+					<dict>
+						<key>kind</key>
+						<string>display-image</string>
+						<key>needs-shine</key>
+						<true/>
+						<key>url</key>
+						<string>https://sustainnescara.github.io/upl-app/interno-globant/logo.png</string>
+					</dict>
+				</array>
+				<key>metadata</key>
 				<dict>
-					<key>architectures</key>
-					<array>
-						<string>arm64</string>
-					</array>
-					<key>buildNumber</key>
-					<string>0.12.0</string>
-					<key>certificate</key>
-					<dict>
-						<key>SHA1</key>
-						<string>A34BA60C9F9B62DE9CBD18855938766EE3C60CB9</string>
-						<key>dateExpires</key>
-						<string>25/04/25</string>
-						<key>type</key>
-						<string>iOS Distribution</string>
-					</dict>
-					<key>name</key>
-					<string>hermes.framework</string>
-					<key>team</key>
-					<dict>
-						<key>id</key>
-						<string>337PL2RW92</string>
-						<key>name</key>
-						<string>Nescara Tecnologia Ltda</string>
-					</dict>
-					<key>versionNumber</key>
-					<string>0.12.0</string>
+					<key>bundle-identifier</key>
+					<string>com.nescara.upl.appoffline</string>
+					<key>bundle-version</key>
+					<string>1.0.0</string>
+					<key>kind</key>
+					<string>software</string>
+					<key>title</key>
+					<string>UPL App</string>
 				</dict>
-			</array>
-			<key>entitlements</key>
-			<dict>
-				<key>application-identifier</key>
-				<string>337PL2RW92.com.upl.appoffline</string>
-				<key>aps-environment</key>
-				<string>production</string>
-				<key>com.apple.developer.team-identifier</key>
-				<string>337PL2RW92</string>
-				<key>get-task-allow</key>
-				<false/>
 			</dict>
-			<key>name</key>
-			<string>UPL.app</string>
-			<key>profile</key>
-			<dict>
-				<key>UUID</key>
-				<string>ede56d70-85ed-4a53-aa21-5f1672ff1137</string>
-				<key>dateExpires</key>
-				<string>20/02/25</string>
-				<key>name</key>
-				<string>iOS Team Inhouse Provisioning Profile: com.upl.appoffline</string>
-			</dict>
-			<key>team</key>
-			<dict>
-				<key>id</key>
-				<string>337PL2RW92</string>
-				<key>name</key>
-				<string>Nescara Tecnologia Ltda</string>
-			</dict>
-			<key>versionNumber</key>
-			<string>1.0.0</string>
-		</dict>
-	</array>
-</dict>
+		</array>
+	</dict>
 </plist>
