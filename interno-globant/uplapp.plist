@@ -1,47 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-	<dict>
-		<key>items</key>
-		<array>
-			<dict>
-				<key>assets</key>
-				<array>
-					<dict>
-						<key>kind</key>
-						<string>software-package</string>
-						<key>url</key>
-						<string>https://sustainnescara.github.io/upl-app/interno-globant/UPL-interno-globant.ipa</string>
-					</dict>
-					<dict>
-						<key>kind</key>
-						<string>full-size-image</string>
-						<key>needs-shine</key>
-						<true/>
-						<key>url</key>
-						<string>https://sustainnescara.github.io/upl-app/interno-globant/logo.png</string>
-					</dict>
-					<dict>
-						<key>kind</key>
-						<string>display-image</string>
-						<key>needs-shine</key>
-						<true/>
-						<key>url</key>
-						<string>https://sustainnescara.github.io/upl-app/interno-globant/logo.png</string>
-					</dict>
-				</array>
-				<key>metadata</key>
-				<dict>
-					<key>bundle-identifier</key>
-					<string>com.nescara.upl.appoffline</string>
-					<key>bundle-version</key>
-					<string>1.0.0</string>
-					<key>kind</key>
-					<string>software</string>
-					<key>title</key>
-					<string>UPL App</string>
-				</dict>
-			</dict>
-		</array>
-	</dict>
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>destination</key>
+	<string>export</string>
+	<key>method</key>
+	<string>enterprise</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>stripSwiftSymbols</key>
+	<false/>
+	<key>teamID</key>
+	<string>337PL2RW92</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
 </plist>
